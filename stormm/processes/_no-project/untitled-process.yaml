@@ -4,3 +4,7 @@ name: Untitled process
 
 blocks:
   - { id: new-read-model, kind: readmodel, title: New read model }
+  - { id: new-command, kind: command, title: New command }
+
+connections:
+  - { from: new-read-model, to: new-command }
