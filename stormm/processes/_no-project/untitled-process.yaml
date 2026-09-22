@@ -10,6 +10,7 @@ blocks:
     title: Job
     fields:
       - { name: id, type: string }
+      - { name: field, type: string }
   - { id: new-event, kind: event, title: Job Published }
   - { id: new-policy, kind: policy, title: New policy }
   - { id: new-policy-2, kind: policy, title: New policy }
