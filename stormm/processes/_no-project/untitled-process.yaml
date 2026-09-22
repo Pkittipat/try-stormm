@@ -3,10 +3,10 @@ id: untitled-process
 name: Untitled process
 
 blocks:
-  - { id: new-read-model, kind: readmodel, title: New read model }
+  - { id: new-read-model, kind: readmodel, title: Job Detail }
   - { id: new-command, kind: command, title: New command }
-  - { id: new-aggregate, kind: aggregate, title: New aggregate }
-  - { id: new-event, kind: event, title: New event }
+  - { id: new-aggregate, kind: aggregate, title: Job }
+  - { id: new-event, kind: event, title: Job Published }
   - { id: new-policy, kind: policy, title: New policy }
   - { id: new-policy-2, kind: policy, title: New policy }
 
