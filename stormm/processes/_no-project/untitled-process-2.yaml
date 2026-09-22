@@ -2,4 +2,6 @@ schemaVersion: 1
 id: untitled-process-2
 name: Ship order
 
-blocks: []
+blocks:
+  - { id: place-order, kind: command, title: Place order }
+  - { id: order-placed, kind: event, title: Order placed }
