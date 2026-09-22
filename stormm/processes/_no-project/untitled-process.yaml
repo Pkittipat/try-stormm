@@ -7,8 +7,10 @@ blocks:
   - { id: new-command, kind: command, title: New command }
   - { id: new-aggregate, kind: aggregate, title: New aggregate }
   - { id: new-event, kind: event, title: New event }
+  - { id: new-policy, kind: policy, title: New policy }
 
 connections:
   - { from: new-read-model, to: new-command }
   - { from: new-command, to: new-aggregate }
   - { from: new-aggregate, to: new-event }
+  - { from: new-event, to: new-policy }
