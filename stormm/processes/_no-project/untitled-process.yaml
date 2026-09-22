@@ -4,7 +4,7 @@ name: Untitled process
 
 blocks:
   - { id: new-read-model, kind: readmodel, title: Job Detail }
-  - { id: new-command, kind: command, title: New command }
+  - { id: new-command, kind: command, title: Publish Job }
   - { id: new-aggregate, kind: aggregate, title: Job }
   - { id: new-event, kind: event, title: Job Published }
   - { id: new-policy, kind: policy, title: New policy }
