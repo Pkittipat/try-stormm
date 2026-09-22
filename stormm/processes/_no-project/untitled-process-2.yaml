@@ -4,4 +4,4 @@ name: Ship order
 
 blocks:
   - { id: place-order, kind: command, title: Place order }
-  - { id: new-event, kind: event, title: New event }
+  - { id: order-placed, kind: event, title: Order placed }
