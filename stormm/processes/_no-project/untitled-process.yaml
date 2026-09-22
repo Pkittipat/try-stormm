@@ -9,7 +9,7 @@ blocks:
     kind: aggregate
     title: Job
     fields:
-      - { name: field, type: string }
+      - { name: id, type: string }
   - { id: new-event, kind: event, title: Job Published }
   - { id: new-policy, kind: policy, title: New policy }
   - { id: new-policy-2, kind: policy, title: New policy }
