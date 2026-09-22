@@ -12,7 +12,6 @@ blocks:
       - { name: id, type: string }
       - { name: name, type: string }
   - { id: new-event, kind: event, title: Job Published }
-  - { id: new-policy, kind: policy, title: when ever .. }
   - { id: new-policy-2, kind: policy, title: New policy }
   - id: job-summary
     kind: readmodel
@@ -24,6 +23,5 @@ connections:
   - { from: new-read-model, to: new-command }
   - { from: new-command, to: new-aggregate }
   - { from: new-aggregate, to: new-event }
-  - { from: new-event, to: new-policy }
   - { from: new-event, to: new-policy-2 }
   - { from: new-event, to: job-summary }
