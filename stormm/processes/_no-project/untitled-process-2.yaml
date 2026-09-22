@@ -2,4 +2,5 @@ schemaVersion: 1
 id: untitled-process-2
 name: Ship order
 
-blocks: []
+blocks:
+  - { id: new-command, kind: command, title: New command }
