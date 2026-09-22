@@ -3,4 +3,4 @@ id: untitled-process-2
 name: Ship order
 
 blocks:
-  - { id: place-order, kind: command, title: Submit order }
+  - { id: place-order, kind: command, title: Submit order, actor: Customer }
