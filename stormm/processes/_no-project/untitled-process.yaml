@@ -6,7 +6,9 @@ blocks:
   - { id: new-read-model, kind: readmodel, title: New read model }
   - { id: new-command, kind: command, title: New command }
   - { id: new-aggregate, kind: aggregate, title: New aggregate }
+  - { id: new-event, kind: event, title: New event }
 
 connections:
   - { from: new-read-model, to: new-command }
   - { from: new-command, to: new-aggregate }
+  - { from: new-aggregate, to: new-event }
