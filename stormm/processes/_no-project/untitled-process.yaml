@@ -18,7 +18,7 @@ blocks:
     kind: readmodel
     title: Job Summary
     fields:
-      - { name: field, type: string }
+      - { name: id, type: string }
 
 connections:
   - { from: new-read-model, to: new-command }
