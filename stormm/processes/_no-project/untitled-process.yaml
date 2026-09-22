@@ -15,4 +15,3 @@ connections:
   - { from: new-command, to: new-aggregate }
   - { from: new-aggregate, to: new-event }
   - { from: new-event, to: new-policy }
-  - { from: new-policy, to: new-policy-2 }
