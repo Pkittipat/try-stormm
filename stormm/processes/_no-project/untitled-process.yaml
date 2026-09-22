@@ -22,3 +22,4 @@ connections:
   - { from: new-aggregate, to: new-event }
   - { from: new-event, to: new-policy }
   - { from: new-event, to: new-policy-2 }
+  - { from: new-event, to: new-read-model-2 }
