@@ -14,6 +14,7 @@ blocks:
   - { id: new-event, kind: event, title: Job Published }
   - { id: new-policy, kind: policy, title: when ever .. }
   - { id: new-policy-2, kind: policy, title: New policy }
+  - { id: new-read-model-2, kind: readmodel, title: New read model }
 
 connections:
   - { from: new-read-model, to: new-command }
