@@ -1,0 +1,6 @@
+schemaVersion: 1
+id: untitled-process-8
+name: Untitled process
+
+blocks:
+  - { id: new-read-model, kind: readmodel, title: New read model }
