@@ -1,6 +1,6 @@
 schemaVersion: 1
 id: untitled-process-8
-name: Job Publisj
+name: Job Publish
 
 blocks:
   - { id: job-detail, kind: readmodel, title: Job Detail }
