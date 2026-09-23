@@ -12,7 +12,7 @@ blocks:
       - { name: id, type: string }
       - { name: name, type: string }
   - { id: new-event, kind: event, title: Job Published }
-  - { id: new-policy-2, kind: policy, title: Log activity }
+  - { id: new-policy-2, kind: policy, title: Whenever job published }
   - id: job-summary
     kind: readmodel
     title: Job Summary
